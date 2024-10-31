@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.4.2",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.4",
+    "@vee-validate/zod": "^4.13.2",
+    "@vueuse/core": "^11.1.0",
+    "nodemailer": "^6.9.15",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "vee-validate": "^4.13.2",
+    "vue": "latest",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vuetify-nuxt-module": "^0.18.2",
+    "yup": "^1.4.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
